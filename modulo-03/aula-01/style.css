@@ -1,0 +1,15 @@
+/* style.css */
+body {
+  background: #000000;
+  font-family: Arial;
+}
+.cartao { background: rgb(100, 67, 192); }
+#titulo { color: #17a30a; }
+
+.interesses {
+  color: #1e293b;
+  background: #dbeafe;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
