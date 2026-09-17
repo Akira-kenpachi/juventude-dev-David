@@ -1,15 +1,50 @@
-/* style.css */
 body {
-  background: #000000;
-  font-family: Arial;
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
-.cartao { background: rgb(100, 67, 192); }
-#titulo { color: #17a30a; }
 
-.interesses {
-  color: #1e293b;
-  background: #dbeafe;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  text-align: center;
+/* --- SEU DESAFIO COMEÇA AQUI --- */
+/* Preencha os valores de acordo com o briefing de cada cartão */
+
+.cartao1 { 
+    /* BRIEFING MÚSICA: #ffffff sobre #7c3aed, Georgia, 22px, centralizado */
+    background: #7c3aed;
+    color: #ffffff;
+    font-family: georgia;
+    font-size: 22px ; 
+    text-align: center;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
+
+.cartao2 { 
+    /* BRIEFING GAMES: #22d3ee sobre #0f172a, Courier New, 20px, centralizado */
+    background: #0f172a; 
+    color: #22d3ee;
+    font-family: ;
+    font-size: ;
+    text-align: ;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.cartao3 { 
+    /* BRIEFING NATUREZA: #166534 sobre #dcfce7, Arial, 18px, alinhado à esquerda */
+    background: ;
+    color: ;
+    font-family: ;
+    font-size: ;
+    text-align: ;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Garante que os links fiquem com a mesma cor do texto do cartão */
+a { color: inherit; }
